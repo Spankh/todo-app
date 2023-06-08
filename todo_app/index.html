@@ -1,0 +1,26 @@
+<!-- index.php -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-do App</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>To-do App</h1>
+
+    <div id="task-container">
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter a task" required><br><br>
+            <label for="status">Status:</label>&ThinSpace;  
+            &ThinSpace; &ThinSpace; &ThinSpace; &ThinSpace; <input type="radio" name="status" value="Not-Completed" > Not Completed
+            &ThinSpace; &ThinSpace; &ThinSpace; &ThinSpace; <input type="radio" name="status" value="In-Progress"> In Progress
+            &ThinSpace; &ThinSpace; &ThinSpace; &ThinSpace; <input type="radio" name="status" value="Completed"> Completed
+            &ThinSpace; &ThinSpace;  <button type="submit">Add Task</button>
+        </form>
+
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
